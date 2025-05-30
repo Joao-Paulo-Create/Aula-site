@@ -85,14 +85,15 @@
         </div>
     </nav>
     <hr>
-    <div class="container w-100 d-flex justify-content-md-center my-5 flex-column align-items-center py-5" style="border: 1px solid rgb(199, 199, 199);">
+    <div class="container w-100 d-flex justify-content-md-center my-5 flex-column align-items-center py-5"
+        style="border: 1px solid rgb(199, 199, 199);">
         <h2>Central de Ajuda</h2>
         <div class="container-fluid d-flex justify-content-evenly my-5 gap-4">
 
-            <div class="card1 d-flex align-items-center py-1" style="width: 50rem;">
+            <div class="card1 d-flex align-items-center py-1 flex-column" style="width: 50rem;">
                 <h5 class="card-title">Meus pedidos</h5>
                 <hr style="width: 85%;">
-                <div class="card-body d-flex flex-column align-items-center">
+                <div class="card-body d-flex align-items-center flex-column">
 
                     <p><a class="link-dark link-opacity-100-hover" href="#"><svg xmlns="http://www.w3.org/2000/svg"
                                 width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle"
@@ -109,7 +110,7 @@
                 </div>
             </div>
 
-            <div class="card1 d-flex align-items-center py-1" style="width: 50rem;">
+            <div class="card1 d-flex align-items-center py-1 flex-column" style="width: 50rem;">
                 <h5 class="card-title">Devolução e Cancelamento</h5>
                 <hr style="width: 85%;">
                 <div class="card-body d-flex flex-column align-items-center">
@@ -129,7 +130,7 @@
                 </div>
             </div>
 
-            <div class="card1 d-flex align-items-center py-1" style="width: 50rem;">
+            <div class="card1 d-flex align-items-center py-1 flex-column" style="width: 50rem;">
                 <h5 class="card-title">Meu Cadastro</h5>
                 <hr style="width: 85%;">
                 <div class="card-body d-flex flex-column">
@@ -155,40 +156,61 @@
     <div class="container-fluid d-flex align-items-center flex-column gap-2">
         <h3>Entre em Contato</h3>
         <h4>Nosso time está disponível das 08h ás 20h</h4>
-        
+
         <div class="d-flex gap-5">
-        <div class="d-flex align-items-center flex-column">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
-                <path
-                    d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
-                <path
-                    d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
-            </svg>
-            <h5>Email</h5>
-            <h5>email.ficticio@gmail.com
-            </h5>
-            <p>Faça sua solicitação
-                com o nosso time de atendimento.</p>
+            <div class="d-flex align-items-center flex-column">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-envelope-at-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2zm-2 9.8V4.698l5.803 3.546zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.5 4.5 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586zM16 9.671V4.697l-5.803 3.546.338.208A4.5 4.5 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671" />
+                    <path
+                        d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791" />
+                </svg>
+                <h5>Email</h5>
+                <h5>email.ficticio@gmail.com
+                </h5>
+                <p>Faça sua solicitação
+                    com o nosso time de atendimento.</p>
+            </div>
+            <div style="width: 5px;background: rgb(194, 194, 194);"></div>
+            <div class="d-flex align-items-center flex-column">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                    class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5" />
+                </svg>
+                <h5>Telefone</h5>
+                <h5>5039-9711
+                </h5>
+                <p>Acompanhe as suas solicitações
+                    com o nosso
+                    time de atendimento.</p>
+            </div>
         </div>
-        <div style="width: 5px;background: rgb(194, 194, 194);"></div>
-        <div class="d-flex align-items-center flex-column">
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
-                <path fill-rule="evenodd"
-                    d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5" />
-            </svg>
-            <h5>Telefone</h5>
-            <h5>5039-9711
-            </h5>
-            <p>Acompanhe as suas solicitações
-                com o nosso
-                time de atendimento.</p>
+
+<hr style="width: 85%;justify-content: center;">
+
+        <div class="card" style="width: 100%; max-width: 500px; margin: auto;">
+            <div class="card-body d-flex align-items-center flex-column">
+                <h5 class="card-title" style="text-align: center;">Nossa Localização</h5>
+                <p class="card-text" style="text-align: center;">Rua do meu ovo<br>Pará – Belém, 66065-270</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.5072490920898!2d-48.4698393!3d-1.4688792999999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48d45a993157d%3A0xe7e9ce98f316f39c!2sCasa%20do%20caralh0!5e0!3m2!1spt-BR!2sbr!4v1748611879400!5m2!1spt-BR!2sbr"
+                width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         </div>
-        </div>
+
     </div>
-    <hr>
+
+    
+
+
     <footer class="py-5" style="font-weight: 300;">
+
+<hr style="width: 100%;justify-content: center;">
+
         <div class="row">
             <div class="col-6 col-md-2 mb-3" id="contato">
                 <h5>Produtos</h5>
